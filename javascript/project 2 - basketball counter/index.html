@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class = "container">
+            <div >      
+                <h3 class= "playing_team">
+                    HOME
+                </h3>
+                <div> 
+                <h2 class = 'scoreboard' id="home_score">
+                    0
+                </h2>
+                </div>
+                <div>
+                    <button class="add_points" id="home_score_plus1" onclick="increment_home_plus1()">+1</button>
+                    <button class="add_points" id ="home_score_plus2" onclick="increment_home_plus2()">+2</button>
+                    <button class="add_points" id ="home_score_plus3" onclick="increment_home_plus3()">+3</button>
+                </div>
+            </div>
+            
+            
+
+            <div>  
+                
+                <h3 class="playing_team">
+                    GUEST
+                </h3>                
+                <h2 class = 'scoreboard' id ="guest_score">
+                    0
+                </h2>
+                <div>
+                    <button class="add_points" id="guest_score_plus1"  onclick="increment_guest_plus1()">+1</button>
+                    <button class="add_points" id="guest_score_plus2"  onclick="increment_guest_plus2()" >+2</button>
+                    <button class="add_points" id="guest_score_plus3"  onclick="increment_guest_plus3()">+3</button>
+                </div>    
+            </div>
+
+
+            
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
