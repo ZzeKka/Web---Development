@@ -1,0 +1,141 @@
+body {
+    margin:0;
+    background-color: black;
+}
+
+#container {
+    height: 729px;
+    width: 550px;
+
+    border: 2px white solid;
+    border-radius: 16px;
+    margin-left: 80px;
+    margin-top: 120px;
+
+    
+}
+
+#header {
+    padding: 10px;
+    height: 285px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    background: #6943FF;
+    text-align: center;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    margin-top: 30px;
+
+    width: 448.4px;
+    height: 38px;
+    left: 51px;
+    top: 33px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+
+    text-align: center;
+    letter-spacing: -0.03em;
+}
+
+#input-el {
+    margin-top: 5px ;
+
+    background: #6943FF;
+    box-sizing: border-box;
+
+    width: 117px;
+    height: 83px;
+
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 24px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#convert-btn {
+    margin-top: 29px;
+
+    width: 117px;
+    height: 42px;
+    
+    background: #FFFFFF;
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    border: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #3D3D3D;
+}
+
+#footer{
+    width: 550px;
+    height: 424px;
+    background: #F4F4F4;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:space-around;  
+}
+
+.calculations {
+    width: 500px;
+    height: 108.57px;
+    background: #FFFFFF;
+    border-radius: 4.68077px 0px 0px 0px;
+
+    text-align: center;
+}
+
+.calc-head{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+
+
+    
+
+    color: #5A537B;
+
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    text-align: center;
+
+    color: #353535;
+}
+
